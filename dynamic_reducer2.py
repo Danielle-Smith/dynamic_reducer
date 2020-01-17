@@ -1,4 +1,4 @@
-
+#changed import functools and called functools.reduce instead of - from functools import reduce and just calling reduce
 import operator
 import functools
 

@@ -3,6 +3,7 @@ import operator
 import functools
 
 def dynamic_reducer(collection, op):
+    #dictionary to recall later
     operators = {
         "+": operator.add,
         "-": operator.sub,
